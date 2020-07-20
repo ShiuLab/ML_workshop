@@ -44,10 +44,8 @@ To follow what we have shown in the workshop, you need the following:
 1. Create a [GitHub Account](https://github.com/join)
 2. Download and install [Github Desktop](https://desktop.github.com/)
   * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
-3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop), 
-```
-git clone git@github.com:ShiuLab/ML_workshop.git
-```
+3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and the following screenshot:
+![alt text](./img/img_clone_repository.png)
 
 ### Install Anaconda
 
