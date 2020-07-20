@@ -44,15 +44,24 @@ To follow what we have shown in the workshop, you need the following:
 1. Create a [GitHub Account](https://github.com/join)
 2. Download [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 3. [Configure](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) Git in your terminal
-4. Clone the [ML-Pipeline](https://github.com/ShiuLab/ML-Pipeline):
+4. Clone the [ML-Pipeline](https://github.com/ShiuLab/ML-Pipeline) by issuing the following command in your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows):
+
 ```
-git clone git@github.com:ShiuLab/ML-Pipeline.git
+git clone git@github.com:ShiuLab/ML_workshop.git
 ```
 
+### Install Anaconda
 
-### Install Anaconda and ML-Pipeline dependence packages
-1. Download the newest version of [Anaconda](https://www.anaconda.com/distribution/) (python 3).
-2. Install Anaconda using the instructions on their webpage.
+[Anaconda](https://www.anaconda.com/) is a a free and open-source distribution of the programming languages Python and R and is a widely used platform for computational and data science applications.
+
+1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
+2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
+3. Open your termina and issue the following command:
+```
+conda 
+```
+
+### Install software packages we need
 3. Install conda extension for jupyter (this gives you the conda tab in the Jupyter Notebook page):
 ```
 conda install nb_conda
@@ -66,6 +75,6 @@ conda activate ML_Pipeline
 ## Navigate to ML-Pipeline tutorial 
 1. Fire up Jupyter (pre-installed in anaconda) from the command line by typing:
 ```
-jupyter notebook
+jupyter lab
 ```
 2. In the window that opens, navigate to GitHub/ML_Pipeline/Tutorial and open ML_Pipeline_tutorial.ipynb
