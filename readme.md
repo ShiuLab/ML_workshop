@@ -56,13 +56,19 @@ git clone git@github.com:ShiuLab/ML_workshop.git
 
 1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
 2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
-3. Open your termina and issue the following command:
+3. Open your termina and issue the following command to make sure Anaconda installation is complete:
 ```
-conda 
+conda list
 ```
+The above command allows you to see what software packages have been installed.
 
 ### Install software packages we need
-3. Install conda extension for jupyter (this gives you the conda tab in the Jupyter Notebook page):
+
+[Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with:
+1. Installing software packages in your computer and takes care of dependencies (i.e., packages that are needed by the packages you want to install but do not specify) and resolves conflicts between package versions.
+2. Management 
+
+1. Install conda extension for jupyter (this gives you the conda tab in the Jupyter Notebook page):
 ```
 conda install nb_conda
 ```
