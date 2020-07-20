@@ -17,7 +17,7 @@ More and more data are available in plant science that have fueled ground breaki
 * Shin-Han Shiu: Professor, Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
 * Serena Lotreck: Graduate student, Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
 
-## Workshop materials
+### What kinds of materials you are sharing
 
 There are two main documents:
 1. [Workshop presentation slides]()
@@ -39,13 +39,12 @@ To follow what we have shown in the workshop, you need the following:
 
 ### Install Git and clone ml_workshop
 
-[Github](https://github.com/) is a code hosting platform for version control (i.e., keep track of updates to codes) and collaboration (i.e., many people can work on the same codes). We have put the workshop materials 
+[Github](https://github.com/) is a code hosting platform for version control (i.e., keep track of updates to codes) and collaboration (i.e., many people can work on the same codes). We have put the workshop materials in a Github repository called [ML_workshop]()
 
 1. Create a [GitHub Account](https://github.com/join)
-2. Download [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-3. [Configure](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) Git in your terminal
-4. Clone the [ML-Pipeline](https://github.com/ShiuLab/ML-Pipeline) by issuing the following command in your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows):
-
+2. Download and install [Github Desktop](https://desktop.github.com/)
+  * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
+3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop), 
 ```
 git clone git@github.com:ShiuLab/ML_workshop.git
 ```
@@ -56,7 +55,7 @@ git clone git@github.com:ShiuLab/ML_workshop.git
 
 1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
 2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
-3. Open your termina and issue the following command to make sure Anaconda installation is complete:
+3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) and issue the following command to make sure Anaconda installation is complete:
 ```
 conda list
 ```
@@ -64,23 +63,29 @@ The above command allows you to see what software packages have been installed.
 
 ### Install software packages we need
 
-[Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with:
-1. Installing software packages in your computer and takes care of dependencies (i.e., packages that are needed by the packages you want to install but do not specify) and resolves conflicts between package versions.
-2. Management 
+[Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with installing software packages in your computer. It also creates and manage virtual environments where each environment you have a specific set of software for a general category of tasks.  
 
-1. Install conda extension for jupyter (this gives you the conda tab in the Jupyter Notebook page):
+1. Let's create an ml environment and activate it:
 ```
-conda install nb_conda
-```
-4. Open terminal and make a conda environment with all of the packages you will need for the ML pipeline using the following commands:
-```
-conda create -n ML_Pipeline numpy pandas scikit-learn scipy matplotlib biopython nb_conda
-conda activate ML_Pipeline
+conda create -n ml
+conda activate ml
 ```
 
-## Navigate to ML-Pipeline tutorial 
-1. Fire up Jupyter (pre-installed in anaconda) from the command line by typing:
+2. Install software packages and their dependencies:
+```
+conda install jupyterlab matplotlib nb_conda pandas scikit-learn 
+```
+
+### Navigate to ML-Pipeline tutorial 
+
+1. In your terminal, run Jupyter Lab by typing:
+
 ```
 jupyter lab
 ```
-2. In the window that opens, navigate to GitHub/ML_Pipeline/Tutorial and open ML_Pipeline_tutorial.ipynb
+
+2. In the browser window that opens, you can navigate in your file system. From here navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
+  * If you use Git, look for 
+  * If you use Github Desktop, look for a Github folder in your document folder.
+
+3. /ML_Pipeline/Tutorial and open ML_workshop.ipynb
