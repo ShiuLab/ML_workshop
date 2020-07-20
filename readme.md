@@ -67,7 +67,7 @@ The above command allows you to see what software packages have been installed.
 
 [Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with installing software packages in your computer. It also creates and manage virtual environments where each environment you have a specific set of software for a general category of tasks.  
 
-1. Let's create an ml environment and activate it:
+1. Create an ml environment and activate it:
 ```
 conda create -n ml
 conda activate ml
@@ -87,7 +87,7 @@ jupyter lab
 ```
 
 2. In the browser window that opens, you can navigate in your file system. From here navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
-  * If you use Git, look for 
-  * If you use Github Desktop, look for a Github folder in your document folder.
 
-3. /ML_Pipeline/Tutorial and open ML_workshop.ipynb
+3. Open ML_workshop.ipynb
+
+4. Run each code element by clicking ```SHIFT + ENTER```.
