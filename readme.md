@@ -14,10 +14,11 @@ More and more data are available in plant science that have fueled ground breaki
 * PlantBiology 2020 Worldwide Summit - Online
 * [Event link](https://www.eventscribe.com/2020/ASPB/fsPopup.asp?Mode=presInfo&PresentationID=742105)
 
-### Who the instructors are
+### Who we are
 
-* Shin-Han Shiu: Professor, Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
-* Serena Lotreck: Graduate student, Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Shin-Han Shiu: Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Serena Lotreck: Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Our lab [website](https://shiulab.github.io/)
 
 ### What kinds of materials you are sharing
 
