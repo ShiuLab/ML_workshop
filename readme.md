@@ -76,7 +76,7 @@ conda activate ml
 
 2. Install software packages and their dependencies:
 ```
-conda install graphviz jupyterlab matplotlib nb_conda pandas pydotplus scikit-learn
+conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 
 ### Navigate to ML-Pipeline tutorial 
