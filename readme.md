@@ -75,7 +75,7 @@ conda activate ml
 
 2. Install software packages and their dependencies:
 ```
-conda install jupyterlab matplotlib nb_conda pandas scikit-learn 
+conda install graphviz jupyterlab matplotlib nb_conda pandas pydotplus scikit-learn
 ```
 
 ### Navigate to ML-Pipeline tutorial 
@@ -86,7 +86,7 @@ conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 jupyter lab
 ```
 
-2. In the browser window that opens, you can navigate in your file system. From here navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
+2. In the browser window that opens, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
 
 3. Open ML_workshop.ipynb
 
