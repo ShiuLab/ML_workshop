@@ -22,8 +22,8 @@ More and more data are available in plant science that have fueled ground breaki
 ### What kinds of materials you are sharing
 
 There are two main documents:
-1. [Workshop presentation slides]()
-2. [Workshop jupyter notebook]()
+1. [Workshop presentation slides](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_presentation.pptx)
+2. [Workshop jupyter notebook](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_example_run.ipynb)
 
 ## Instructions for runnning the notebook
 
