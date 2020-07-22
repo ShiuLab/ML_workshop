@@ -14,16 +14,17 @@ More and more data are available in plant science that have fueled ground breaki
 * PlantBiology 2020 Worldwide Summit - Online
 * [Event link](https://www.eventscribe.com/2020/ASPB/fsPopup.asp?Mode=presInfo&PresentationID=742105)
 
-### Who the instructors are
+### Who we are
 
-* Shin-Han Shiu: Professor, Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
-* Serena Lotreck: Graduate student, Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Shin-Han Shiu: Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Serena Lotreck: Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
+* Our lab [website](https://shiulab.github.io/)
 
 ### What kinds of materials you are sharing
 
 There are two main documents:
-1. [Workshop presentation slides]()
-2. [Workshop jupyter notebook]()
+1. [Workshop presentation slides](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_presentation.pptx)
+2. [Workshop jupyter notebook](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_example_run.ipynb)
 
 ## Instructions for runnning the notebook
 
@@ -75,7 +76,7 @@ conda activate ml
 
 2. Install software packages and their dependencies:
 ```
-conda install graphviz jupyterlab matplotlib nb_conda pandas pydotplus scikit-learn
+conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 
 ### Navigate to ML-Pipeline tutorial 
