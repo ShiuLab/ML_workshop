@@ -67,7 +67,7 @@ conda list
 ```
 The above command allows you to see what software packages have been installed.
 
-### Install software packages we need
+### Install software packages
 
 [Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with installing software packages in your computer. It also creates and manage virtual environments where each environment you have a specific set of software for a general category of tasks.  
 
@@ -82,7 +82,7 @@ conda activate ml
 conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 
-### Navigate to ML-workshop tutorial 
+### Navigate to ML_workshop tutorial 
 
 1. Run Jupyter Lab
 
