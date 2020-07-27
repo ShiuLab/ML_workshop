@@ -84,13 +84,23 @@ conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 
 ### Navigate to ML-Pipeline tutorial 
 
-1. In your terminal, run Jupyter Lab by typing:
+1. Run Jupyter Lab
+
+* If you use Mac:
 
 ```
 jupyter lab
 ```
-
-2. In the browser window that opens, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
+* If you use PC, an extra flag needs to be passed. 
+** If your Github folder is in C:/ drive, then launch Jypyter Lab by the following instead:
+```
+jupyter lab --notebook-dir=C:/
+```
+** If it is in D:/ drive, do the following:
+```
+jupyter lab --notebook-dir=C:/
+```
+2. In the Jupyter lab window that opens, on the left panel, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
 
 3. Open ML_workshop.ipynb
 
