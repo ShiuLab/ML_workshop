@@ -91,12 +91,11 @@ conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 jupyter lab
 ```
-* If you use PC, an extra flag needs to be passed. 
-  * If your Github folder is in C:/ drive, then launch Jypyter Lab by the following instead:
+* If you use PC, and your Github folder is in C:/ drive, then do:
 ```
 jupyter lab --notebook-dir=C:/
 ```
-  * If it is in D:/ drive, do the following:
+* Again, if you use PC and your Github folder is in D:/ drive, do:
 ```
 jupyter lab --notebook-dir=C:/
 ```
