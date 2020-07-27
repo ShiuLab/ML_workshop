@@ -59,7 +59,7 @@ To follow what we have shown in the workshop, you need the following:
 1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
 2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
 3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) 
-  - __Note__: For PC, you need to "Run as Administrator". If you are not familiar with this, see [this post](https://www.itechtics.com/run-programs-administrator/) for more info.
+  * __Note__: For PC, you need to open the terminal by "Running as Administrator". If you are not familiar with this, see [this post](https://www.itechtics.com/run-programs-administrator/) for more info.
   
 4. Issue the following command to make sure Anaconda installation is complete:
 ```
