@@ -6,7 +6,7 @@
 
 ### What this is about
 
-More and more data are available in plant science that have fueled ground breaking discoveries. Beyond the original intents of the experiments, these data can be used to discover even more. This is where machine learning come in - using computers to learn from data and generate models that can predict a biological phenomenon of interest - e.g. will this gene be lethal when it is knocked-out, or which genetic variants can meaningfully predict a phenotype of interests. Specifically, this workshop will touch on the following topics: What is machine learning and why is it useful? How does machine learning work? What are some example machine learning applications in plant science? How can we feed data into machine learning tools to make discoveries? What are the best practices when doing machine learning? Where to go to learn more? The workshop will include presentations, discussions, and a short hand-on section using online machine learning resources.
+More and more data are available in plant science that have fueled ground breaking discoveries. Beyond the original intents of the experiments, these data can be used to discover even more. This is where machine learning comes in. We can use computers to learn from data and generate models that can predict a biological phenomenon of interest - e.g. will this gene be lethal when it is knocked-out, or which genetic variants can meaningfully predict a phenotype of interests. Specifically, this workshop will touch on the following topics: What is machine learning and why is it useful? How does machine learning work? What are some example machine learning applications in plant science? How can we feed data into machine learning tools to make discoveries? What are the best practices when doing machine learning? Where to go to learn more? The workshop will include presentations, discussions, and a short hands-on section using online machine learning resources.
 
 ### When and where
 
@@ -48,7 +48,7 @@ To follow what we have shown in the workshop, you need the following:
 2. Download and install [Github Desktop](https://desktop.github.com/)
   * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
 3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and the following screenshot.
-  * __Note:__ You can specify where the repository goes in your computer. Suggest leave it as default and remember where it is - we need it later.
+  * __Note:__ You can specify where the repository goes in your computer. We suggest leaving it as default and to remember where it is - we need it later.
   
 ![alt text](./img/img_clone_repository.png)
 
@@ -67,7 +67,7 @@ conda list
 ```
 The above command allows you to see what software packages have been installed.
 
-### Install software packages we need
+### Install software packages
 
 [Conda](https://docs.conda.io/en/latest/) is a package/environment management system. It deals with installing software packages in your computer. It also creates and manage virtual environments where each environment you have a specific set of software for a general category of tasks.  
 
@@ -82,7 +82,7 @@ conda activate ml
 conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 
-### Navigate to ML-Pipeline tutorial 
+### Navigate to ML_workshop tutorial 
 
 1. Run Jupyter Lab
 
