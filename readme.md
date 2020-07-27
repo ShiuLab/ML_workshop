@@ -91,14 +91,15 @@ conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 jupyter lab
 ```
-* If you use PC, and your Github folder is in C:/ drive, then do:
+* If you use PC, and your Github folder is in __C:/__ drive, then do:
 ```
 jupyter lab --notebook-dir=C:/
 ```
-* Again, if you use PC and your Github folder is in D:/ drive, do:
+* If you use PC and your Github folder is in __D:/__ drive, do:
 ```
-jupyter lab --notebook-dir=C:/
+jupyter lab --notebook-dir=D:/
 ```
+
 2. In the Jupyter lab window that opens, on the left panel, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
 
 3. Open ML_workshop.ipynb
