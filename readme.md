@@ -47,8 +47,8 @@ To follow what we have shown in the workshop, you need the following:
 1. Create a [GitHub Account](https://github.com/join)
 2. Download and install [Github Desktop](https://desktop.github.com/)
   * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
-3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and this screenshot.
-  * Note that you can specify where the repository goes in your computer. Suggest leave it as default and remember where it is - we need it later.
+3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and the following screenshot.
+  * __Note:__ You can specify where the repository goes in your computer. Suggest leave it as default and remember where it is - we need it later.
   
 ![alt text](./img/img_clone_repository.png)
 
@@ -58,7 +58,10 @@ To follow what we have shown in the workshop, you need the following:
 
 1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
 2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
-3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) and issue the following command to make sure Anaconda installation is complete:
+3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) 
+  * __Note__: For PC, you need to open the terminal by "Running as Administrator". If you are not familiar with this, see [this post](https://www.itechtics.com/run-programs-administrator/) for more info.
+  
+4. Issue the following command to make sure Anaconda installation is complete:
 ```
 conda list
 ```
@@ -81,13 +84,23 @@ conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 
 ### Navigate to ML-Pipeline tutorial 
 
-1. In your terminal, run Jupyter Lab by typing:
+1. Run Jupyter Lab
+
+* If you use Mac:
 
 ```
 jupyter lab
 ```
+* If you use PC, and your Github folder is in __C:/__ drive, then do:
+```
+jupyter lab --notebook-dir=C:/
+```
+* If you use PC and your Github folder is in __D:/__ drive, do:
+```
+jupyter lab --notebook-dir=D:/
+```
 
-2. In the browser window that opens, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
+2. In the Jupyter lab window that opens, on the left panel, navigate to __ML_workshop__, the directory where the cloned Github repository is stored.
 
 3. Open ML_workshop.ipynb
 
