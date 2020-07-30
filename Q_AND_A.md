@@ -74,7 +74,7 @@ Also see the answer to the previous question.
 
 You don’t need much at all if you use [Weka](https://www.cs.waikato.ac.nz/ml/weka/index.html) a powerful machine learning software that only require that you put data in.
 
-If you have experiences working with command-line interface, you can use our machine learning pipeline, https://github.com/ShiuLab/ML-Pipeline, which is an end-to-end pipeline that runs on the command line. 
+If you have experiences working with command-line interface, you can use [our machine learning pipeline](https://github.com/ShiuLab/ML-Pipeline), which is an end-to-end pipeline that runs on the command line. 
 
 Additionally, if you have basic skills in Python, scikit-learn provides many tools to do machine learning in a fairly streamlined way.
 
