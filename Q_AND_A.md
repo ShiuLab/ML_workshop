@@ -11,10 +11,10 @@ Depend on what specific questions one want to ask, there are quite a few papers 
 
 ## On looking for traits in photos that are too subtle for the human eye (e.g. leaf shape patterns):
 
-A few interesting studies:
+Couple interesting studies:
 
-[Automated classification of tropical shrub species: a hybrid of leaf shape and machine learning approac](https://pubmed.ncbi.nlm.nih.gov/28924506/)
-[Computer vision cracks the leaf code](https://pubmed.ncbi.nlm.nih.gov/26951664/)
+* [Automated classification of tropical shrub species: a hybrid of leaf shape and machine learning approac](https://pubmed.ncbi.nlm.nih.gov/28924506/)
+* [Computer vision cracks the leaf code](https://pubmed.ncbi.nlm.nih.gov/26951664/)
 
 ## On identifying metabolites with metabolomics data:
 
