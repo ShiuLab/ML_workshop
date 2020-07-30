@@ -58,6 +58,7 @@ Given the amount of transcriptome data available, this is feasible. You need car
 
 ### I’m just getting started with ML. What are your recommendations to get started?
 
+0. Find a colleague who known machine learning already - in stat, math, and engineering, they are quite a few people with expertise.
 1. Find a question relevant to your research that can be solved by building a statistical model.
 2. Start with online resources like this workshop to get a basic understanding of the terms and processes.
 3. Check out introductory books like [this one])(https://www.cs.waikato.ac.nz/ml/weka/book.html) that does not require programming experiences or, if you have some Python background, check [this one](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) out.
