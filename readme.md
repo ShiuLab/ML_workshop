@@ -21,7 +21,7 @@ The last time we offered the workshop:
 * Serena Lotreck: Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
 * Our lab [website](https://shiulab.github.io/)
 
-### What kinds of materials you are sharing
+### What kinds of materials we are sharing
 
 There are two main documents:
 1. [Workshop presentation slides](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_presentation.pptx)
