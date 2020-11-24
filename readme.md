@@ -10,6 +10,7 @@ More and more data are available in plant science that have fueled ground breaki
 
 ### When and where
 
+The last time we offered the workshop:
 * 3:30-4:30pm, 7/29/2020
 * PlantBiology 2020 Worldwide Summit - Online
 * [Event link](https://www.eventscribe.com/2020/ASPB/fsPopup.asp?Mode=presInfo&PresentationID=742105)
