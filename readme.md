@@ -81,7 +81,9 @@ conda activate ml_workshop
 
 2. Install software packages and their dependencies:
 ```
-conda install jupyterlab ipykernel matplotlib nb_conda pandas scikit-learn
+conda install jupyterlab ipykernel matplotlib nb_conda pandas scikit-learn seaborn shap tqdm
+
+pip install imbalanced-learn
 ```
 
 ### 2.5 Open the notebooks 
