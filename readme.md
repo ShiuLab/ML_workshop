@@ -74,16 +74,17 @@ The above command allows you to see what software packages have been installed.
 
 1. Create an `ml_workshop` environment and activate it:
 ```
-conda create -n ml_workshop
+conda create -n ml_workshop python=3.10
 conda activate ml_workshop
 ```
+* __Note__: When prompted with `Proceed`, type `y`.
 
 2. Install software packages and their dependencies:
 ```
 conda install jupyterlab matplotlib nb_conda pandas scikit-learn
 ```
 
-### 2.4 Open the notebooks 
+### 2.5 Open the notebooks 
 
 1. Run Jupyter Lab
 
@@ -106,3 +107,5 @@ jupyter lab --notebook-dir=D:/
 3. Open `ML_workshop-part_a-preparation.ipynb`
 
 4. Run each code element by clicking ```SHIFT + ENTER```.
+
+We will continue the rest in the workshop.
