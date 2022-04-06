@@ -10,27 +10,22 @@ More and more data are available in plant science that have fueled ground breaki
 
 ### When and where
 
-The last time we offered the workshop:
-* 3:30-4:30pm, 7/29/2020
-* PlantBiology 2020 Worldwide Summit - Online
-* [Event link](https://www.eventscribe.com/2020/ASPB/fsPopup.asp?Mode=presInfo&PresentationID=742105)
+When and where
+- 1-3pm, 4/12/2022
+- The NRT IMPACTS Annual Symposium
+- [Event link](https://impacts.natsci.msu.edu/2022-annual-symposium/)
 
-### Who we are
+### Who the instructor is
 
 * Shin-Han Shiu: Departments of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
-* Serena Lotreck: Department of Plant Biology and Comp. Math., Sci., & Engr., Michigan State University
 * Our lab [website](https://shiulab.github.io/)
 
 ### What kinds of materials we are sharing
 
-There are two main documents:
-1. [Workshop presentation slides](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_presentation.pptx)
-2. [Workshop jupyter notebook](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop_example_run.ipynb)
+- Workshop jupyter notebooks
+- An example data to run an ML project based on [this paper](https://pubmed.ncbi.nlm.nih.gov/30674669/).
 
 ## Instructions for runnning the notebook
-
-* Developed by Christina Azodi for the [2019 workshop](https://github.com/azodichr/ML-Pipeline/tree/master/Workshop).
-* Modified for the 2020 workshop by Shinhan Shiu.
 
 ### What's needed
 
@@ -41,23 +36,28 @@ To follow what we have shown in the workshop, you need the following:
 * Jupyter Lab: the application to view, edit, and execute codes in the notebook.
 * Scikit-Learn and others: the software packages Jupyter Lab relies on to run the codes.
 
-### Install Git and clone ml_workshop
+### Get the notebook and data
 
-[Github](https://github.com/) is a code hosting platform for version control (i.e., keep track of updates to codes) and collaboration (i.e., many people can work on the same codes). We have put the workshop materials in a Github repository called [ML_workshop]()
+You can download the notebooks and data from this Google Drive folder.
 
+__But, I prefer that you get them by setting up:__
+- `git`, a version control software (i.e., a tool to keep track of updates to codes) widely used by folks writing software in any language.
+- [Github](https://github.com/) is a code hosting platform that uses `git` for version control and collaboration (i.e., many people can work on the same codes).
+
+If you don't have git and/or Github account, do the following:
 1. Create a [GitHub Account](https://github.com/join)
 2. Download and install [Github Desktop](https://desktop.github.com/)
   * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
 3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and the following screenshot.
   * __Note:__ You can specify where the repository goes in your computer. We suggest leaving it as default and to remember where it is - we need it later.
-  
 ![alt text](./img/img_clone_repository.png)
+4. Navigate to the location where the cloned repository is and confirm that it is there.
 
 ### Install Anaconda
 
 [Anaconda](https://www.anaconda.com/) is a a free and open-source distribution of the programming languages Python and R and is a widely used platform for computational and data science applications.
 
-1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). Current, it is Python 3.7.
+1. Download the Python 3.X version of [Anaconda](https://www.anaconda.com/products/individual#Downloads). 
 2. Install Anaconda using the [instructions](https://docs.anaconda.com/anaconda/install/).
 3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) 
   * __Note__: For PC, you need to open the terminal by "Running as Administrator". If you are not familiar with this, see [this post](https://www.itechtics.com/run-programs-administrator/) for more info.
