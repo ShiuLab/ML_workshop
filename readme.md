@@ -110,4 +110,10 @@ jupyter lab --notebook-dir=D:/
 
 4. Run each code element by clicking ```SHIFT + ENTER```.
 
+### 2.6 If you have trouble getting Jupyer Lab to run 
+
+Please make sure you:
+1. Watch [this video](https://www.youtube.com/watch?v=cfj6yaYE86U), and [this video](https://www.youtube.com/watch?v=-_XYmr4vkwc).
+1. Go to have a look at the [pre-workshop notebook through GitHub](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop-part_a-preparation.ipynb) and take some notes on the questions asked.
+
 We will continue the rest in the workshop.
