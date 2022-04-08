@@ -1,4 +1,4 @@
-# How machine learning can be used to solve plant biology problems
+# Machine learning hands-on
 
 ![alt text](./img/img_what_ml_is.png)
 
