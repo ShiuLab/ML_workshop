@@ -90,7 +90,7 @@ pip install imbalanced-learn
 
 1. Run Jupyter Lab
 
-* If you use Mac:
+* If you use Linux or Mac OS:
 
 ```
 jupyter lab
