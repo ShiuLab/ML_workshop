@@ -15,9 +15,9 @@ When and where
 - The NRT IMPACTS Annual Symposium
 - [Event link](https://impacts.natsci.msu.edu/2022-annual-symposium/)
 
-### 1.3 Who the instructor is
+### 1.3 Who the instructors are
 
-* Shin-Han Shiu: a computaional and evolutionary biologist from Michigan State University.
+* [Shin-Han Shiu](https://orcid.org/0000-0001-6470-235X) and [Serena Lotreck](https://orcid.org/0000-0001-7282-6272)
 * Our lab [website](https://shiulab.github.io/)
 
 ### 1.4 What kinds of materials we are sharing
