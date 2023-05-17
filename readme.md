@@ -40,6 +40,7 @@ If you don't have git and/or Github account, do the following:
   * Or you can use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you are familar with version control and command-line interface. Note that the following info is for using Github Desktop.
 3. Clone the ML_workshop by following [this instruction](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) and the following screenshot.
   * __Note:__ You can specify where the repository goes in your computer. We suggest leaving it as default and to remember where it is - we need it later.
+
 ![alt text](./img/img_clone_repository.png)
 4. Navigate to the location where the cloned repository is and confirm that it is there.
 
