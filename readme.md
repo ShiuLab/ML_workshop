@@ -42,6 +42,7 @@ If you don't have git and/or Github account, do the following:
   * __Note:__ You can specify where the repository goes in your computer. We suggest leaving it as default and to remember where it is - we need it later.
 
 ![alt text](./img/img_clone_repository.png)
+
 4. Navigate to the location where the cloned repository is and confirm that it is there.
 
 ### Install Anaconda
