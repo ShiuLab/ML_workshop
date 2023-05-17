@@ -28,7 +28,16 @@ To follow what we have shown in the workshop, you need the following:
 * Jupyter Lab: the application to view, edit, and execute codes in the notebook.
 * Scikit-Learn and others: the software packages Jupyter Lab relies on to run the codes.
 
-### 2.2 Get the notebook and data
+### Get some background
+
+
+### If you have trouble getting Jupyer Lab to run 
+
+Please make sure you:
+1. Watch [this video](https://www.youtube.com/watch?v=cfj6yaYE86U), and [this video](https://www.youtube.com/watch?v=-_XYmr4vkwc).
+1. Have a look at the [pre-workshop notebook through GitHub](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop-part_a-preparation.ipynb) and take some notes on the questions asked.
+
+### Get the notebook and data
 
 You can download the notebooks and data from this repository, preferably by setting the following up:
 - `git`, a version control software (i.e., a tool to keep track of updates to codes) widely used by folks writing software in any language.
@@ -54,7 +63,7 @@ If you don't have git and/or Github account, do the following:
 3. Open your terminal in [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PC](https://www.wikihow.com/Open-Terminal-in-Windows) 
   * __Note__: For PC, you need to open the terminal by "Running as Administrator". If you are not familiar with this, see [this post](https://www.itechtics.com/run-programs-administrator/) for more info.
   
-4. Issue the following command to make sure Anaconda installation is complete:
+5. Issue the following command to make sure Anaconda installation is complete:
 ```
 conda list
 ```
@@ -67,6 +76,8 @@ The above command allows you to see what software packages have been installed.
 1. Create an `ml_workshop` environment and activate it:
 ```
 conda create -n ml_workshop python=3.10
+```
+```
 conda activate ml_workshop
 ```
 * __Note__: When prompted with `Proceed`, type `y`.
@@ -74,7 +85,8 @@ conda activate ml_workshop
 2. Install software packages and their dependencies:
 ```
 conda install jupyterlab ipykernel ipywidgets matplotlib nb_conda pandas scikit-learn seaborn shap tqdm
-
+```
+```
 pip install imbalanced-learn
 ```
 
@@ -101,10 +113,4 @@ jupyter lab --notebook-dir=D:/
 3. Open `ML_workshop-part_a-preparation.ipynb`
 
 4. Run each code element by clicking ```SHIFT + ENTER```.
-
-### If you have trouble getting Jupyer Lab to run 
-
-Please make sure you:
-1. Watch [this video](https://www.youtube.com/watch?v=cfj6yaYE86U), and [this video](https://www.youtube.com/watch?v=-_XYmr4vkwc).
-1. Go to have a look at the [pre-workshop notebook through GitHub](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop-part_a-preparation.ipynb) and take some notes on the questions asked.
 
