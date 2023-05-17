@@ -28,14 +28,11 @@ To follow what we have shown in the workshop, you need the following:
 * Jupyter Lab: the application to view, edit, and execute codes in the notebook.
 * Scikit-Learn and others: the software packages Jupyter Lab relies on to run the codes.
 
-### Get some background
-
-
-### If you have trouble getting Jupyer Lab to run 
+### Get some backgrounds
 
 Please make sure you:
-1. Watch [this video](https://www.youtube.com/watch?v=cfj6yaYE86U), and [this video](https://www.youtube.com/watch?v=-_XYmr4vkwc).
 1. Have a look at the [pre-workshop notebook through GitHub](https://github.com/ShiuLab/ML_workshop/blob/master/ML_workshop-part_a-preparation.ipynb) and take some notes on the questions asked.
+2. Watch [this video](https://www.youtube.com/watch?v=cfj6yaYE86U), and [this video](https://www.youtube.com/watch?v=-_XYmr4vkwc) on getting Jupyter notebook to run.
 
 ### Get the notebook and data
 
