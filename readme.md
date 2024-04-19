@@ -6,7 +6,7 @@
 
 ### What this is about
 
-More and more data are available in plant science that have fueled ground breaking discoveries. Beyond the original intents of the experiments, these data can be used to discover even more. This is where machine learning comes in. We can use computers to learn from data and generate models that can predict a biological phenomenon of interest - e.g. will this gene be lethal when it is knocked-out, or which genetic variants can meaningfully predict a phenotype of interests. Specifically, this workshop will touch on the following topics: 
+More and more experimental data are available that have fueled ground breaking discoveries. Beyond the original intents of the experiments, these data can be used to discover even more. This is where machine learning (ML) comes in. We can use computers to learn from data and generate models that can predict a biological phenomenon of interest - e.g., will this gene be lethal when it is knocked-out, or which genetic variants can meaningfully predict a phenotype of interests. To learn more about ML, we created this workshop to provide an introduction on the following topics:
 
 - What is machine learning and why is it useful?
 - How does machine learning work?
@@ -15,7 +15,7 @@ More and more data are available in plant science that have fueled ground breaki
 - What are the best practices when doing machine learning?
 - Where to go to learn more?
 
-The workshop will include presentations, discussions, and hands-on sections for those who can complete the pre-workshop components.
+The workshop will include presentations, discussions, and hands-on sections for those who can complete the pre-workshop components without issue.
 
 ### Who we are
 
