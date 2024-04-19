@@ -1,4 +1,4 @@
-# Machine learning hands-on
+# Machine learning workshop
 
 ![alt text](./img/img_what_ml_is.png)
 
