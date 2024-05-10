@@ -81,7 +81,7 @@ The above command allows you to see what software packages have been installed.
 
 1. Create an `ml_workshop` environment and activate it:
 ```
-conda create -n ml_workshop python=3.10
+conda create -n ml_workshop python
 ```
 ```
 conda activate ml_workshop
