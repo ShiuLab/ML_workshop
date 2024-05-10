@@ -1,0 +1,18 @@
+﻿Feature name,Description
+Func_likelihood,The likelihood that the gene in question functional which is derived from a model distinguishing functional vs. pseudogenes
+Fam_size,The size of the gene family the gene in question belong to
+Max_id_paralog,"The maximum identity of the gene in question to its ""siblings"" (paralogs or duplicates)"
+WGD_alpha,If the gene in question still has a sibling (paralog) derived from the alpha whole-genome duplication event
+WGD_beta_gamma,If the gene in question still has a sibling (paralog) derived from the beta or gamma whole-genome duplication event
+Dup_recent,If the gene in question has a sibling that is closely related (synonymous substitution rate < 0.05)
+Dup_tandem,If the gene in question is tandemly duplicated
+Singleton,If the gene in question has no sibling
+Max_PCC_GM_abiotic,The maximum Pearson's correlation between the abiotic stress transcriptional responses of the gene in question and those of general metabolism genes
+Max_PCC_SM_abiotic,The maximum Pearson's correlation between the abiotic stress transcriptional responses of the gene in question and those of specialized metabolism genes
+Max_PCC_GM_biotic,The maximum Pearson's correlation between the biotic stress transcriptional responses of the gene in question and those of general metabolism genes
+Max_PCC_SM_biotic,The maximum Pearson's correlation between the biotic stress transcriptional responses of the gene in question and those of specialized metabolism genes
+Max_PCC_GM_hormone,The maximum Pearson's correlation between the hormone-treatment transcriptional responses of the gene in question and those of general metabolism genes
+Max_PCC_SM_hormone,The maximum Pearson's correlation between the hormone-treatment transcriptional responses of the gene in question and those of specialized metabolism genes
+Expr_med_dev,The median expression level of the gene in question among expression data of different tissue and/or developmental stages
+Expr_max_dev,The maximum expression level of the gene in question among expression data of different tissue and/or developmental stages
+Expr_breadth_dev,The breadth of expression level of the gene in question among expression data of different tissue and/or developmental stages
